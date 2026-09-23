@@ -7,7 +7,7 @@ I researched reinforcement learning-based software systems in graduate school, a
 Work and graduate research code live in company and lab repositories and are not public.
 
 **기술 / Skills**
-- SW Design: UML(Use Case·Class Diagram) · SRS · C4 · ADR · Modular Monolith
+- SW Design: UML · SRS · C4 · ADR
 - Backend: Python · FastAPI · SQLAlchemy · MariaDB · PostgreSQL
 - Infra: Kubernetes · Helm · NVIDIA GPU Operator · DRA · Prometheus · GitLab CI/CD · GCP
 - Serving·MLOps: vLLM · TEI · Kubeflow Training Operator · MLflow
