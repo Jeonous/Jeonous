@@ -19,7 +19,7 @@ Work and graduate research code live in company and lab repositories and are not
   같은 탐색 코드를 쓰던 NVIDIA/go-nvlib [#108](https://github.com/NVIDIA/go-nvlib/pull/108)과 NVIDIA/k8s-device-plugin [#2025](https://github.com/NVIDIA/k8s-device-plugin/pull/2025)에도 같은 수정이 머지됐습니다. 수정 PR은 모두 다른 기여자가 작성했습니다.  
   The same fix was also merged into NVIDIA/go-nvlib #108 and NVIDIA/k8s-device-plugin #2025, which share the same discovery code. All fix PRs were written by other contributors.
 - stablyai/orca [#11496](https://github.com/stablyai/orca/issues/11496)  
-  Windows 사용자 이름에 한글 같은 비ASCII 문자가 있으면 Claude Code 훅이 빠른 경로 대신 PowerShell 경로로 실행돼 호출마다 약 3배 느려지는 문제를 측정과 함께 보고하고, 수정 PR [#11497](https://github.com/stablyai/orca/pull/11497)을 올렸습니다. 메인테이너가 진단을 확인했고, 같은 문제를 함께 해결한 더 넓은 수정이 먼저 반영되어 PR은 머지되지 않고 닫혔습니다.  
+  Windows 사용자 이름에 한글 같은 비ASCII 문자가 있으면 Claude Code 훅이 빠른 경로 대신 PowerShell 경로로 실행돼 호출마다 약 3배 느려지는 문제를 측정과 함께 보고하고, 수정 PR [#11497](https://github.com/stablyai/orca/pull/11497)을 올렸습니다. 메인테이너가 진단을 확인했고, 같은 문제를 함께 해결한 더 넓은 수정이 먼저 반영되어 PR은 머지되지 않고 closed 됐습니다.  
   Reported, with measurements, that Claude Code hooks fell back to a roughly 3x slower PowerShell launcher on Windows profiles with non-ASCII names, and opened fix PR #11497. The maintainer confirmed the diagnosis; a broader fix landed first, so the PR was closed without merging.
 
 **연락 / Contact**  
