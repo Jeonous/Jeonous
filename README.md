@@ -9,7 +9,7 @@ Work and graduate research code live in company and lab repositories and are not
 **기술 / Skills**
 - SW Design: UML · SRS · C4 · ADR
 - Backend: Python · FastAPI · SQLAlchemy · MariaDB · PostgreSQL
-- Infra: Kubernetes · Helm · NVIDIA GPU Operator · DRA · Prometheus · GitLab CI/CD · GCP
+- Infra: Kubernetes · Helm · NVIDIA GPU Operator · DRA · Prometheus · GitLab CI/CD · GCP · Cilium
 - Serving·MLOps: vLLM · TEI · Kubeflow Training Operator · MLflow
 
 **오픈소스 이슈 보고 / Open source issues**
